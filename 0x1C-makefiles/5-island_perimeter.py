@@ -1,8 +1,17 @@
 #!/usr/bin/python3
+"""Explain an island perimeter by measure a function."""
+
 
 def island_perimeter(grid):
-    """Return the perimiter of the island."""
+    """Return perimiter of the island.
 
+    The grid shows water by 0 also land by 1.
+
+    Args:
+        grid (list): List of the list of integers represent island.
+    Returns:
+        The perimeter of island explain in grid.
+    """
     width = len(grid[0])
     height = len(grid)
     edges = 0
