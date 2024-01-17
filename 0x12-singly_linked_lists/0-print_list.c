@@ -19,7 +19,10 @@ size_t print_list(const list_t *h)
 			printf("[%u] %s\n", h->len, h->str);
 		h = h->next;
 		s++;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8a38ee777bfd57754ded282b51e4f799b49d57ea
 	}
 
 	return (s);
